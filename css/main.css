@@ -1,0 +1,57 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 50px;
+	margin: 0;
+}
+nav {
+	background: #02908B;
+	height: 60px;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+.nav li{
+  display: inline-block;
+  text-align: center;
+}
+nav > a {
+	color:  #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	left: 25px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	top: 10px;
+}
+nav span {
+	font-family: 'Open Sans', sans-serif;
+	color:  #cfc91d;
+	text-align: left;
+}
+
+nav ul {
+	position: absolute;
+	right: 25px;
+	top:5px;
+}
+
+nav li {
+	display: inline-block;
+	padding:0 15px;
+}
+
+nav li > a {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	        transition: all 0.3s ease-in-out;
+}
+
+nav li > a:hover,
+nav li > a:focus {
+	color: #cfc91d;
+}
